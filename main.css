@@ -1,0 +1,24 @@
+.form{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+    
+}
+
+.btn{
+    border-radius: 5px;
+}
+.film{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  
+    padding: 20px;
+
+    width: 500px;
+}
+.films__list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;                  
+    grid-template-columns: repeat (3, 3fr);
+    grid-gap: 50px;
+}
